@@ -1,9 +1,11 @@
+import ToDoList from "../components/todos/ToDoList.jsx";
+
 const ToDos = () => {
-    return (
-        <>
-            <h2>ToDo`s</h2>
-        </>
-    );
-}
+  return (
+    <>
+      <ToDoList />
+    </>
+  );
+};
 
 export default ToDos;
